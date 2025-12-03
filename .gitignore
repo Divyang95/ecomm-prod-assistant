@@ -1,20 +1,20 @@
-# Python-generated files
+# Python cache and compiled files
 __pycache__/
-*.py[oc]
+*.py[co]
+
+# Build and distribution
 build/
 dist/
 wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+venv/
+.venv/
+
 # Environment variables
 .env
 *.env
 
-# logs 
-*.log  
-
-
-
-
+# Logs
+*.log
